@@ -1,0 +1,29 @@
+
+git config --global user.email "adam@jeeni.co.uk"
+git config --global user.name "bs217sf"
+
+git add fileName
+git commit -m 'first commit'
+git push genesis master
+
+
+£300
+
+http://www.angelpolish.co.uk/
+Likes: Text, pics on front. Brief introduction of services.
+Like the Pricing & Payment page. Areas covered. Sid wants to target Clifton, failand, Abbots Lea, Stoak Bishop, Nailsea, etc...
+
+Do not like the colors.
+
+
+http://www.thefinecleaningcompany.co.uk/
+Like the colors & layout. Understated, simple, clean. Likes green rather than orange flower
+Like the dark gray.
+Like the Heading and sub-heading. 
+
+
+Other Notes:
+"The cleaning company limited" - Sids company name.
+Look into possiblity of a "Share" button.
+https://www.amycleaning.co.uk/blog/
+
