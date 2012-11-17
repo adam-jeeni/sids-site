@@ -21,23 +21,25 @@
 </style>
 <![endif]-->
 
-  <script>
+<script>
  $(document).ready(function() {
-	 
 	 $( "#accordion" ).accordion({ collapsible: true, active: 'false', autoHeight: false });
-	 
-	 
-	});
+	 $("#banner").fadeIn(1000);
+ });
+</script>
  
- </script>
 </head>
 <body>
 
 <div class="centre-column">
+
 <div class="page-title">
 	<div style="height:57px;width:70px;background-image:url('img/butterfly.png'); background-repeat:no-repeat;;float:left;"></div><h1 style="float:left;">The Cleaning Company Limited</h1><h1 style="float:right;">01275 555 555</h1>
 </div>
-<div style="height:200px;margin-bottom:10px;background-image:url('img/sid_cleaning_dark.png');"></div>
+<div class="banner">
+	<div id="banner" class="banner-pic" style="background-image:url('img/banner1.png');"></div>
+</div>
+
 <div style="height:45px;">
 	<nav>
 		<ul id="menu" >
@@ -52,8 +54,7 @@
 		Call Sarah: 5555 555 555
 		</div>
 	</nav>
-	
-</div>
+	</div>
 <div class="cleaning-company-locations fade">
 &bull; Clevedon &bull; Nailsea &bull; Portishead &bull; Yatton &bull; Congresbury &bull; Long Ashton &bull; North Somerset &bull; Bristol &bull;
 </div>

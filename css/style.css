@@ -128,7 +128,14 @@ ul#cleaning-services li{
 	color:#69C26C;
 	font-size:16px;
 }
-
+div.banner, div.banner-pic {
+	background-color:#353535;
+	height:200px;
+	margin-bottom:10px;"
+}
+div.banner-pic{
+	display:none;
+}
 div.cleaning-company-locations{
 	height:30px;
 	padding:0;

@@ -3,12 +3,11 @@
 <head>
  <title>Sids Clevedon Cleaning Company</title>
  <description></description>
+ 
  <link href='http://fonts.googleapis.com/css?family=Poiret+One' rel='stylesheet' type='text/css'>
- <link rel="stylesheet" type="text/css" media="all" href="/css/style.css" />
+ <link rel="stylesheet" type="text/css" media="all" href="css/style.css" />
  <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js"></script>
  <script src="http://code.jquery.com/ui/1.9.1/jquery-ui.js"></script>
- 
-  <!-- <link href='http://fonts.googleapis.com/css?family=Julius+Sans+One' rel='stylesheet' type='text/css'> -->
  
  <!--[if IE]>
 <style type="text/css">
@@ -21,12 +20,13 @@
 </style>
 <![endif]-->
 
-  <script>
+<script>
  $(document).ready(function() {
 	 $( "#accordion" ).accordion({ collapsible: true, active: 'false', autoHeight: false });
+	 $("#banner").fadeIn(1000);
 	});
  
- </script>
+</script>
  
 </head>
 <body>
@@ -35,7 +35,9 @@
 <div class="page-title">
 	<div style="height:57px;width:70px;background-image:url('img/butterfly.png'); background-repeat:no-repeat;;float:left;"></div><h1 style="float:left;">The Cleaning Company Limited</h1><h1 style="float:right;">01275 555 555</h1>
 </div>
-<div style="height:200px;margin-bottom:10px;background-image:url('img/sid_cleaning_dark.png');"></div>
+<div class="banner">
+	<div id="banner" class="banner-pic" style="background-image:url('img/banner8.png');"></div>
+</div>
 <div style="height:45px;">
 	<nav>
 		<ul id="menu">

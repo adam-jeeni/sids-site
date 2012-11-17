@@ -1,7 +1,7 @@
-
+Username: adam-jeeni
+Password: bs217sf
 git config --global user.email "adam@jeeni.co.uk"
 git config --global user.name "bs217sf"
-
 git add fileName
 git commit -m 'first commit'
 git push genesis master
